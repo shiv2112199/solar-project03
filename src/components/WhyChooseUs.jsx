@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
         <section className="py-16">
             <div className="mx-auto max-w-7xl px-6">
                 <div className="mx-auto mb-10 max-w-2xl text-center">
-                    <p className="text-2xl font-bold text-green-400">Why Choose Us</p>
+                    <p className="text-2xl font-bold text-yellow-400">Why Choose Us</p>
                     <h2 className="mt-2 text-3xl font-bold text-dark md:text-4xl">
                         Rooftop solar installation with subsidy support in Indore.
                     </h2>
@@ -43,11 +43,11 @@ const WhyChooseUs = () => {
                     {whyChooseUs.map((item, idx) => (
                         <div
                             key={idx}
-                            className="relative overflow-visible rounded-2xl  p-6 pt-10 text-center text-slate-700 border-2 border-green-300"
+                            className="relative overflow-visible rounded-2xl  p-6 pt-10 text-center text-slate-700 border-2 border-yellow-300"
                         >
                             <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
                                 <div className="grid h-20 w-20 place-items-center rounded-full bg-white shadow-soft">
-                                    <span className="text-green-500 [&>svg]:h-9 [&>svg]:w-9 border-2 border-green-400 p-2 rounded-full">
+                                    <span className="text-yellow-500 [&>svg]:h-9 [&>svg]:w-9 border-2 border-yellow-400 p-2 rounded-full">
                                         {item.icon}
                                     </span>
                                 </div>
@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
                                 <h3 className="text-2xl font-extrabold leading-snug">{item.title}</h3>
                                 <p className="mt-4 text-gray-700 text-lg">{item.description}</p>
 
-                                <a href="" className="mt-6 inline-flex  text-green-400 items-center gap-2 font-semibold">
+                                <a href="" className="mt-6 inline-flex  text-yellow-400 items-center gap-2 font-semibold">
                                     Learn More <span aria-hidden="true">→</span>
                                 </a>
                             </div>

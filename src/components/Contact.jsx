@@ -3,44 +3,44 @@ export default function Contact() {
     <section className="bg-light py-20">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="px-6 py-12">
-          <p className="font-bold text-green-400">Contact Us</p>
+          <p className="font-bold text-yellow-400">Contact Us</p>
           <h2 className="mt-2 text-3xl font-extrabold text-dark md:text-4xl">
             Feel Free To Contact Us
           </h2>
-<form className="mt-8  border-2 border-green-200 p-5 rounded-2xl grid grid-cols-1 gap-4 md:grid-cols-2">
+<form className="mt-8  border-2 border-yellow-200 p-5 rounded-2xl grid grid-cols-1 gap-4 md:grid-cols-2">
   {/* Name (Required) */}
   <input
-    className="h-[55px] rounded-md  px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-green-400"
+    className="h-[55px] rounded-md  px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-yellow-400"
     placeholder="Your Name"
     required
   />
 
   {/* Phone Number (Required) */}
   <input
-    className="h-[55px] rounded-md px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-green-400"
+    className="h-[55px] rounded-md px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-yellow-400"
     placeholder="Phone Number"
     required
   />
 
   {/* City / Area */}
   <input
-    className="h-[55px] rounded-md px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-green-400 md:col-span-2"
+    className="h-[55px] rounded-md px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-yellow-400 md:col-span-2"
     placeholder="City / Area"
   />
 
   {/* Monthly Electricity Bill (Optional) */}
   <input
-    className="h-[55px] rounded-md px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-green-400 md:col-span-2"
+    className="h-[55px] rounded-md px-4 bg-gray-200 focus:ring-2 outline-none focus:ring-yellow-400 md:col-span-2"
     placeholder="Monthly Electricity Bill (Optional)"
   />
 
   {/* Message */}
   <textarea
-    className="min-h-[120px] rounded-md px-4 py-3 bg-gray-200 focus:ring-2 outline-none focus:ring-green-400 md:col-span-2"
+    className="min-h-[120px] rounded-md px-4 py-3 bg-gray-200 focus:ring-2 outline-none focus:ring-yellow-400 md:col-span-2"
     placeholder="Message"
   />
 
-  <button className="rounded-full bg-green-400 px-8 py-3 font-medium  text-white hover:opacity-90 md:col-span-2 w-fit">
+  <button className="rounded-full bg-yellow-400 px-8 py-3 font-medium  text-white hover:opacity-90 md:col-span-2 w-fit">
     Send Message
   </button>
 </form>

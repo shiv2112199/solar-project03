@@ -53,7 +53,7 @@ export default function Navbar({ isSticky }) {
           onClick={(e) => handleNavClick(e, "#home")}
           className="flex items-center gap-3 border-r pr-6"
         >
-          <h2 className="text-3xl font-extrabold text-green-600">Solartec</h2>
+          <h2 className="text-3xl font-extrabold text-yellow-500">Solartec</h2>
         </a>
 
         {/* Desktop Nav */}
@@ -63,7 +63,7 @@ export default function Navbar({ isSticky }) {
               key={item.label}
               href={item.href}
               onClick={(e) => handleNavClick(e, item.href)}
-              className="text-lg font-medium uppercase tracking-wide text-dark hover:text-green-400"
+              className="text-lg font-medium uppercase tracking-wide text-dark hover:text-yellow-400"
             >
               {item.label}
             </a>

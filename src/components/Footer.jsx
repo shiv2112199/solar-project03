@@ -49,24 +49,24 @@ export default function Footer() {
             <div className="flex gap-3 py-3">
               <p
                 className="flex items-center justify-center text-white/90 border border-white text-xl 
-                            w-10 h-10 rounded-full hover:text-green-400 hover:bg-white "
+                            w-10 h-10 rounded-full hover:text-yellow-400 hover:bg-white "
               >
                 <FaFacebookF />
               </p>
               <p
                 className="flex items-center justify-center text-white/90 border border-white text-xl 
-                             w-10 h-10 rounded-full hover:text-green-400 hover:bg-white">
+                             w-10 h-10 rounded-full hover:text-yellow-400 hover:bg-white">
                 < FaLinkedinIn />
               </p>
               <p
                 className="flex items-center justify-center text-white/90 border border-white text-xl 
-                              w-10 h-10 rounded-full hover:text-green-400 hover:bg-white">
+                              w-10 h-10 rounded-full hover:text-yellow-400 hover:bg-white">
                 < FaInstagram />
               </p>
 
               <p
                 className="flex items-center justify-center text-white/90 border border-white text-xl  
-                                             w-10 h-10 rounded-full hover:text-green-400 hover:bg-white">
+                                             w-10 h-10 rounded-full hover:text-yellow-400 hover:bg-white">
                 < IoLogoWhatsapp />
               </p>
 

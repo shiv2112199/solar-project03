@@ -47,7 +47,7 @@ export default function Services() {
     <section className="py-16">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto mb-10 max-w-2xl text-center">
-          <p className="font-bold text-green-400 text-2xl">Our Services</p>
+          <p className="font-bold text-yellow-400 text-2xl">Our Services</p>
           <h2 className="mt-2 text-3xl font-bold text-dark md:text-4xl">
             We Are Pioneers In The World Of Renewable Energy
           </h2>
@@ -55,7 +55,7 @@ export default function Services() {
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s, idx) => (
-            <div key={idx} className="overflow-hidden rounded-lg bg-white shadow-soft shadow-sm shadow-green-600 hover:shadow-md">
+            <div key={idx} className="overflow-hidden rounded-lg bg-white shadow-soft shadow-sm shadow-yellow-600 hover:shadow-md">
               <img
                 src={s.img}
                 alt={s.title}
@@ -66,7 +66,7 @@ export default function Services() {
 
                 <div
                   className="-mt-12 mb-5 grid h-24 w-24 place-items-center rounded-full
-          bg-white text-4xl text-green-400 shadow-soft transition hover:bg-green-400
+          bg-white text-4xl text-yellow-400 shadow-soft transition hover:bg-yellow-400
           hover:text-white"
                 >
                   {s.icon}

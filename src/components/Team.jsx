@@ -6,7 +6,7 @@ export default function Team() {
     <section className="pt-16">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto mb-10 max-w-2xl text-center">
-          <p className="font-bold text-green-400">Team Member</p>
+          <p className="font-bold text-yellow-400">Team Member</p>
           <h2 className="mt-2 text-3xl font-extrabold text-dark md:text-4xl">
             Experienced Team Members
           </h2>

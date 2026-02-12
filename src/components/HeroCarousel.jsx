@@ -50,7 +50,7 @@ export default function HeroCarousel() {
 
                   <a
                     href="#"
-                    className="mt-6 inline-flex rounded-3xl bg-green-400  gap-2 px-12 py-5   text-lg font-medium text-gray-100 hover:opacity-90 sm:px-8"
+                    className="mt-6 inline-flex rounded-3xl bg-yellow-500  gap-2 px-12 py-5   text-lg font-medium text-gray-100 hover:opacity-90 sm:px-8"
                   >
                     <IoLogoWhatsapp size={35}/>	Connect to WhatsApp 
                   </a>
