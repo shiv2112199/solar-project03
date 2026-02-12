@@ -84,29 +84,20 @@ export default function Navbar({ isSticky }) {
       {/* Mobile Menu */}
       {renderMenu && (
         <div
-          className={[
-            "lg:hidden border-t overflow-hidden",
-            "transition-all duration-300 ease-out",
-            menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0",
-          ].join(" ")}
+          className={`lg:hidden fixed inset-x-0 top-[75px] z-40 transform transition-transform duration-300 ${
+            menuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"
+          }`}
         >
-          <div
-            className={[
-              "mx-auto max-w-7xl px-6 py-4",
-              "transition-all duration-300 ease-out",
-              menuOpen ? "translate-y-0" : "-translate-y-2",
-            ].join(" ")}
-          >
+          <div className="mx-auto max-w-7xl border-t bg-white shadow-lg max-h-[calc(100vh-75px)] overflow-auto px-6 py-4">
             <div className="flex flex-col gap-3">
               {NAV_ITEMS.map((item) => (
-                <a
+                <button
                   key={item.label}
-                  href={item.href}
-                  onClick={(e) => handleNavClick(e, item.href)}
-                  className="py-1 text-sm font-medium uppercase tracking-wide text-dark hover:text-primary"
+                  onClick={(e) => handleNavClick(e, item)}
+                  className="py-1 text-sm font-medium uppercase tracking-wide text-gray-800 hover:text-yellow-500 text-left"
                 >
                   {item.label}
-                </a>
+                </button>
               ))}
             </div>
           </div>
